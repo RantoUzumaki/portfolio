@@ -1,0 +1,62 @@
+/* footer container CSS */
+.wrapper {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--code-snippets);
+  border-top: 1px solid var(--border-color);
+  height: max-content;
+}
+
+.menu {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftItem {
+  padding: calc(var(--space) / 2);
+}
+
+.leftItem:not(:first-child) {
+  cursor: pointer;
+}
+
+.leftItemLink {
+  color: var(--grey-color) !important;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftItemLink:hover,
+.rightItemLink:hover {
+  color: var(--white) !important;
+}
+
+.leftItem {
+  border-right: 1px solid var(--border-color);
+}
+
+.rightItem {
+  padding: calc(var(--space) / 2);
+  border-left: 1px solid var(--border-color);
+}
+
+.rightItemLink {
+  display: flex;
+  color: var(--grey-color) !important;
+  text-align: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rightItemLinkSVG {
+  margin-left: 6px;
+}

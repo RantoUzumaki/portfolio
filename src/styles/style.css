@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --black: #010c15;
+  --dark-blue: #011627;
+  --grey-color: #607b96;
+  --white: #ffffff;
+  --violet: #4d5bce;
+  --border-color: #1e2d3d;
+  --white-alt: #e5e9f0;
+  --orange: #e99287;
+  --green: #43d9ad;
+  --card-bg-color: #011221;
+  --button-bg-color: #1c2b3a;
+  --raidus: 8px;
+  --headline-font-size: 62px;
+  --subhead-font-size: 32px;
+  --body-text: 18px;
+  --labels: 16px;
+  --code-snippets: 14px;
+  --space: 24px;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Fira Code", monospace;
+  background: var(--black);
+  color: var(--grey-color);
+  width: 100vw;
+  height: 100vh;
+  font-size: var(--body-text);
+  padding: 50px;
+  overflow: hidden;
+  user-select: none;
+}
+
+.main-container {
+  background: var(--dark-blue);
+  border-radius: var(--raidus);
+  width: calc(100vw - 100px);
+  height: calc(100vh - 100px);
+  border: 1px solid var(--border-color);
+  position: relative;
+}
