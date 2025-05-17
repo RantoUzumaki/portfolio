@@ -4,7 +4,7 @@ import homeStyle from "./home.module.css";
 
 const Home = () => {
   return (
-    <div className="w-full h-[calc(100%-46px-55px)] flex">
+    <div className={homeStyle.wrapper}>
       <div className={homeStyle.leftWrapper}>
         <div className={homeStyle.leftText}>
           <span className={homeStyle.firstTxt}>Hi all. I am</span>
