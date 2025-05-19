@@ -26,6 +26,13 @@ export default {
         label: '16px',
         snippet: '14px'
       },
+      lineHeight: {
+        headLine: '68px',
+        subHeadLine: '32px',
+        normal: '18px',
+        label: '16px',
+        snippet: '14px'
+      },
       width: {
         container: 'calc(100vw - 100px)',
         content: '100%'
