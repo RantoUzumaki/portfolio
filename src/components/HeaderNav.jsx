@@ -8,7 +8,7 @@ const HeaderNav = () => {
     <div className="flex w-full border-b border-border h-14 justify-between">
       <div className="flex justify-start items-center">
         <button
-          className="w-60 px-5 border-r border-border flex justify-start items-center h-full text-gray"
+          className="w- px-5 border-r border-border flex justify-start items-center h-full text-gray"
           onClick={() => navigate('/')}
         >
           ranto-berk
