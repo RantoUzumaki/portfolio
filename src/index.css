@@ -1,51 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
-
 @import "tailwindcss";
+
+/* @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap"); */
 
 @theme {
   /* COLORS */
-  --color-black: '#010c15';
-  --color-darkBlue: '#011627';
-  --color-gray: '#607b96';
-  --color-white: '#ffffff';
-  --color-violet: '#4d5bce';
-  --color-border: '#1e2d3d';
-  --color-darkWhite: '#e5e9f0';
-  --color-orange: '#e99287';
-  --color-green: '#43d9ad';
-  --color-cardBg: '#011221';
-  --color-btnBg: '#1c2b3a';
+  --color-black: "#010c15";
+  --color-darkBlue: "#011627";
+  --color-gray: "#607b96";
+  --color-white: "#ffffff";
+  --color-violet: "#4d5bce";
+  --color-border: "#1e2d3d";
+  --color-darkWhite: "#e5e9f0";
+  --color-orange: "#e99287";
+  --color-green: "#43d9ad";
+  --color-cardBg: "#011221";
+  --color-btnBg: "#1c2b3a";
 
   /* BORDER RADIUS */
-  --radius-default: '8px';
+  --radius-default: "8px";
 
   /* FONT SIZE */
-  --text-headLine: '62px';
-  --text-subHeadLine: '32px';
-  --text-normal: '18px';
-  --text-label: '16px';
-  --text-snippet: '14px';
+  --text-headLine: "62px";
+  --text-subHeadLine: "32px";
+  --text-normal: "18px";
+  --text-label: "16px";
+  --text-snippet: "14px";
 
   /* LINE HEIGHT */
-  --leading-headLine: '68px';
-  --leading-subHeadLine: '32px';
-  --leading-normal: '18px';
-  --leading-label: '16px';
-  --leading-snippet: '14px';
+  --leading-headLine: "68px";
+  --leading-subHeadLine: "32px";
+  --leading-normal: "18px";
+  --leading-label: "16px";
+  --leading-snippet: "14px";
 
   /* WIDTH */
-  --width-container: 'calc(100vw - 100px)';
-  --width-content: '100%';
+  --width-container: "calc(100vw - 100px)";
+  --width-content: "100%";
 
   /* WIDTH */
-  --height-container: 'calc(100vh - 100px)';
-  --width-content: 'calc(100% - 56px - 50px)';
+  --height-container: "calc(100vh - 100px)";
+  --width-content: "calc(100% - 56px - 50px)";
 }
-
 
 @layer base {
   html {
-    font-family: 'Fira Code', monospace;
+    font-family: "Fira Code", monospace;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
