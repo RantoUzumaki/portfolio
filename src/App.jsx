@@ -9,10 +9,10 @@ import FooterNav from "./components/FooterNav";
 
 function App() {
   return (
-    <div className="bg-darkBlue rounded-default border border-border relative w-container h-container font-body">
+    <div className="bg-darkBlue rounded-default border border-border relative w-[calc(100vw-100px)] h-[calc(100vh-100px)] font-body">
       <Router>
         <HeaderNav />
-        <div className="w-full h-content">
+        <div className="w-full h-[calc(100%-56px-50px)]">
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route path="/about-me" element={<AboutMe />} />
