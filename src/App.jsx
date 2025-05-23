@@ -1,13 +1,11 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import HeaderNav from "components/HeaderNav";
 import FooterNav from "components/FooterNav";
 
-import Home from "pages/Home";
-import AboutMe from "pages/AboutMe";
-import Projects from "pages/Projects";
-import ContactMe from "pages/ContactMe";
+
 
 import "index.css";
+import AnimatedRoutes from './components/AnimatedRoutes';
 
 function App() {
   return (
@@ -15,12 +13,7 @@ function App() {
       <Router>
         <HeaderNav />
         <div className="w-full h-[calc(100%-56px-50px)]">
-          <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route path="/about-me" element={<AboutMe />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/contact-me" element={<ContactMe />} />
-          </Routes>
+          <AnimatedRoutes />
         </div>
         <FooterNav />
       </Router>
